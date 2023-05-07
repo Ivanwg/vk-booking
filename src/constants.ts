@@ -3,7 +3,7 @@ export interface IOption {
   label: string;
 }
 
-type TOptions = Array<IOption>;
+export type TOptions = Array<IOption>;
 
 export const towerOptions: TOptions = [
   { value: 'a', label: 'A' },
@@ -28,3 +28,8 @@ for (let i=1; i<11; i++) {
     label: data,
   });
 }
+
+
+export const borderColor = '#b9bbbc';
+export const borderHoverColor = '#0487a1';
+export const grayColor = '#3c3c3c';
